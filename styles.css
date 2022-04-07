@@ -2,7 +2,7 @@ body {background-color: rgba(192, 224, 9, 0.877);}
 h1 {
     text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:5cm;
+    font-size: 5cm;
     margin-top: auto;
 }
 
@@ -10,6 +10,8 @@ h4 {
     text-align: center;
     animation: pulseup 4s;
     animation-iteration-count: infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 @keyframes pulseup {
@@ -24,4 +26,60 @@ h4 {
         transform: scale(100%);
     }
     
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+  background-image: url(https://media.giphy.com/media/3o7ZeTilObk8tt2SoU/giphy.gif);
+  background-repeat:round;
+  background-blend-mode:;
+}
+
+.title {
+  font-family: "Cairo";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height:2
+}
+
+h1 {
+  /* background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif); */
+  background-image: url(https://media2.giphy.com/media/xT1R9GoQtCxcirYbIs/giphy.gif?cid=790b7611fddf531004c7154977264b9aea394739955d34b3&rid=giphy.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #FFF;
+}
+
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
 }
