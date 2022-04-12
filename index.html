@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>The Daily Egg</title>
+
+    <!--python to javascript transpilier-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython_stdlib.js"></script>
+
   </head>
-  <body>
+  <body id="page" onload="brython({debug:0})">
+    <image id="egg" src="https://clipground.com/images/white-egg-clipart-15.png" style="width:100px;"></image>
     <div class="title">
       <h1>The Daily Egg</h1>
      <h4>These yolks will crack you up!</h4>
-
      </div>
 
 
 
-
+    <script src="bounce.py" type="text/python"></script>
+    <div class="center">
     <h3>What's an egg's favorite type of tree?</h3>
     <h3>A <i>y-oak</i> tree.</h3>
     <h3>What's an egg's favorite type of coffee?</h3>
@@ -31,5 +37,6 @@
     <h3>An <i>eggs</i>plorer!</h3>
     <h3>Why did the egg insult his friend?</h3>
     <h3>He was feeling n<i>egg</i>ative!</h3>
+  </div>
   </body>
 </html>
